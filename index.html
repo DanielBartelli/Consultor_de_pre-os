@@ -10,9 +10,11 @@
     <div class="container">
         <h2>Consulta de Preços e Compra</h2>
         <input type="text" id="produtoInput" placeholder="Digite o código ou nome do produto">
-        <button onclick="consultarPreco()">Consultar</button>
-        <button onclick="comprarProduto()">Comprar</button>
+        <button onclick="consultarPreco()">Consultar Valor</button>
+        <button onclick="comprarProduto()">Comprar Produto</button>
         <button onclick="calcularTotal()">Calcular Total</button>
+        <p>Itens no Carrinho: <span id="numProdutos">0</span></p>
+        <p>Total do Carrinho: <span id="valorTotal">R$ 0.00</span></p>
         <p id="resultado"></p>
     </div>
     <script src="./scripts/script.js"></script>
